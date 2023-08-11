@@ -20,7 +20,7 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-**/
+*/
 
 #include <argp.h>
 #include <stdio.h>
@@ -359,7 +359,6 @@ int main(int argc, char *argv[])
 	// Print help and exit if -h is provided
 	if (HELP) {
 		printHelp();
-		exit(EXIT_SUCCESS);
 	}
 	else if (INVALID_ARGS) {
 		printf("Unable to parse arguments.\n\n");

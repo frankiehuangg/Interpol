@@ -1,5 +1,5 @@
-compile:
-	gcc -O1 -o interpol interpol.c
+build:
+	gcc -O1 -o interpol src/interpol.c
 
 clean:
 	rm interpol
