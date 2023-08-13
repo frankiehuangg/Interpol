@@ -8,7 +8,9 @@
 
 ## Setup
 
-First compile the file using the following command.
+First, make sure all requirements are installed.
+
+Then compile the file using the following command.
 
 ```bash
 $ make build
