@@ -1,5 +1,6 @@
 build:
-	gcc -O1 -o interpol src/interpol.c
+	mkdir -p target
+	gcc -O1 -o target/interpol src/interpol.c
 
 clean:
 	rm interpol
