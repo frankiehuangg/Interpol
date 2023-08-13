@@ -1,8 +1,8 @@
-# Interpol - Go
+# Interpol - Python 2
 
 ## Requirements
 
-- go
+- Python 2.x
 
 ## Setup
 
@@ -12,5 +12,5 @@ No further setup is required to run the program. To show the help information, u
 se the `-h` flag.
 
 ```bash
-$ go run src/interpol.go -h
+$ python2 src/interpol.go -h
 ```
